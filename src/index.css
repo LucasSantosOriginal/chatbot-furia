@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000000;
+  color: #fff;
+}
+
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.chat-container {
+  background: #222;
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  padding: 1rem;
+  height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.message.user {
+  background: #007bff;
+  align-self: flex-end;
+}
+
+.message.bot {
+  background: #444;
+  align-self: flex-start;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #333;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  background: #111;
+  color: #fff;
+}
+
+.chat-input button {
+  padding: 1rem 2rem;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  color: #111;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.chat-input button:hover {
+  background: #000000;
+  color: white;
+}
+
+.bg-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 600px; /* diminui a largura */
+  background: url('images/bg.png') no-repeat center center;
+  background-size: contain; /* faz a imagem caber inteira */
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}
+
+.content h1 {
+text-align: center;
+
+}
+

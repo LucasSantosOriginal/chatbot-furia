@@ -1,0 +1,21 @@
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.options button {
+  padding: 8px 16px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.options button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
