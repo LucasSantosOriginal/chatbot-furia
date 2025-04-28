@@ -51,7 +51,7 @@ Error generating stack: `+u.message+`
     2 - DreamHack Masters Spring (2020)<br />
     3 - CS:GO Championship - ECS Season 7 Finals (2019)
   `:I.includes("rede")||I.includes("social")?yl=`
-      Siga nós nas redes sociais <br>
+      Acompanhe a Furia nas redes sociais! <br>
 <a href="https://www.instagram.com/furiagg" target="_blank" style="color: #fff; ">Instagram</a><br />
 <a href="https://twitter.com/furiagg" target="_blank" style="color: #fff; ">Twitter</a><br />
 <a href="https://www.youtube.com/@FURIAggCS" target="_blank" style="color: #fff; ">Youtube</a><br />
