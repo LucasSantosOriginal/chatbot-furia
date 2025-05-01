@@ -6,7 +6,7 @@ function App() {
     <div className="app-container">
       <div className="bg-image" />
       <div className="content">
-        <h1 className="title">FURIA CHATBOT</h1>
+        <h1 className="title">FURIA CHAT</h1>
         <Chat />
       </div>
     </div>
